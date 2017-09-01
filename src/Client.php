@@ -24,7 +24,7 @@ class Client
         $this->endpoint = $endpoint;
 
         if (isset($attributes['channel'])) {
-            $this->setDefaulChannel($attributes['channel']);
+            $this->setDefaultChannel($attributes['channel']);
         }
 
         if (isset($attributes['username'])) {
