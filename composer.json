@@ -17,6 +17,5 @@
         "psr-4": {
             "Owldesign\\Slack\\": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
