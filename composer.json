@@ -1,0 +1,22 @@
+{
+    "name": "owldesign/slack",
+    "description": "PHP Package for sending messages to Slack.",
+    "keywords": ["slack", "slack api"],
+    "type": "slack-api-wrapper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vadim Goncharov",
+            "email": "vadim@owl-design.net"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Owldesign\\Slack\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
