@@ -147,7 +147,7 @@ class Client
         $payload = [
             'text' => $message->getText(),
             'channel' => $message->getChannel(),
-            'username' => $message->getUsename()
+            'username' => $message->getUsername()
         ];
 
         if ($icon = $message->getIcon()) {
